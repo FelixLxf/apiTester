@@ -1,0 +1,16 @@
+2019-06-01 13:57:18,584 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-06-01 13:57:18,588 - INFO - 13 - url:http://127.0.0.1:8010/api/project/find ,method:POST,请求参数:{'page': 1, 'sizePage': 20, 'projectName': None}
+2019-06-01 13:57:19,166 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'status': 1, 'data': [{'value': 'test11.py'}]}
+2019-06-01 13:57:19,171 - INFO - 22 - url:http://127.0.0.1:8010/api/project/find ,method:POST,返回数据:{'status': 1, 'total': 0, 'data': [], 'userData': [{'user_id': 1, 'user_name': '管理员'}]}
+2019-06-01 13:57:20,095 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-06-01 13:57:20,098 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-06-01 13:57:20,103 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'status': 1, 'data': [{'value': 'test11.py'}]}
+2019-06-01 13:57:20,112 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'status': 1, 'user_pro': None, 'set_list': {}, 'urlData': {}, 'pro_and_id': [], 'config_name_list': {}, 'data': {}, 'scene_list': {}}
+2019-06-01 13:57:21,649 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-06-01 13:57:21,653 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-06-01 13:57:21,673 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'status': 1, 'user_pro': None, 'set_list': {}, 'urlData': {}, 'pro_and_id': [], 'config_name_list': {}, 'data': {}, 'scene_list': {}}
+2019-06-01 13:57:21,680 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'status': 1, 'data': [{'value': 'test11.py'}]}
+2019-06-01 13:57:23,670 - INFO - 13 - url:http://127.0.0.1:8010/api/project/find ,method:POST,请求参数:{'page': 1, 'sizePage': 20, 'projectName': None}
+2019-06-01 13:57:23,682 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-06-01 13:57:24,151 - INFO - 22 - url:http://127.0.0.1:8010/api/project/find ,method:POST,返回数据:{'status': 1, 'total': 0, 'data': [], 'userData': [{'user_id': 1, 'user_name': '管理员'}]}
+2019-06-01 13:57:24,154 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'status': 1, 'data': [{'value': 'test11.py'}]}

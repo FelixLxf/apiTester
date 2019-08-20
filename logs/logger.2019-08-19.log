@@ -1,0 +1,140 @@
+2019-08-19 16:02:11,686 - INFO - 13 - url:http://127.0.0.1:8010/api/login ,method:POST,请求参数:{'account': 'admin', 'password': '123456'}
+2019-08-19 16:02:12,087 - INFO - 22 - url:http://127.0.0.1:8010/api/login ,method:POST,返回数据:{'name': '管理员', 'roles': '2', 'status': 1, 'msg': '登录成功', 'userId': 1, 'token': 'eyJleHAiOjE1NjYyMDUzMzIsImFsZyI6IkhTNTEyIiwiaWF0IjoxNTY2MjAxNzMyfQ.eyJyZXNldCI6MX0.xOnj0OdZd-ms9EEpI1pv0d3kw-IBf4kIJbjLBUM6o7z71Iq_ju0uQ6MZT32aeWREhRnrWmyUZnf_byFX3bmclA'}
+2019-08-19 16:02:12,202 - INFO - 13 - url:http://127.0.0.1:8010/api/project/find ,method:POST,请求参数:{'projectName': None, 'sizePage': 20, 'page': 1}
+2019-08-19 16:02:12,204 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:02:12,233 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:02:12,241 - INFO - 22 - url:http://127.0.0.1:8010/api/project/find ,method:POST,返回数据:{'data': [{'name': '百度搜索', 'host_two': '[]', 'id': 1, 'host_three': '[]', 'host': '[]', 'choice': 'first', 'principal': '管理员', 'host_four': '[]'}], 'status': 1, 'userData': [{'user_name': '管理员', 'user_id': 1}], 'total': 1}
+2019-08-19 16:02:13,523 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:02:13,538 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:02:13,566 - INFO - 13 - url:http://127.0.0.1:8010/api/module/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 30, 'page': 1}
+2019-08-19 16:02:13,567 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:02:13,576 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:02:13,578 - INFO - 22 - url:http://127.0.0.1:8010/api/module/find ,method:POST,返回数据:{'data': [{'name': '百度', 'moduleId': 1, 'num': 1}], 'all_module': [{'name': '百度', 'moduleId': 1, 'num': 1}], 'status': 1, 'total': 1}
+2019-08-19 16:02:13,607 - INFO - 13 - url:http://127.0.0.1:8010/api/apiMsg/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 20, 'page': 1, 'moduleId': 1, 'apiName': None}
+2019-08-19 16:02:13,615 - INFO - 22 - url:http://127.0.0.1:8010/api/apiMsg/find ,method:POST,返回数据:{'data': [], 'status': 1, 'total': 0}
+2019-08-19 16:02:14,070 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:02:14,071 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:02:14,085 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:02:14,089 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:02:14,118 - INFO - 13 - url:http://127.0.0.1:8010/api/config/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 20, 'configName': None, 'page': 1}
+2019-08-19 16:02:14,127 - INFO - 22 - url:http://127.0.0.1:8010/api/config/find ,method:POST,返回数据:{'data': [], 'status': 1, 'total': 0}
+2019-08-19 16:02:14,461 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:02:14,463 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:02:14,474 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:02:14,476 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:02:14,514 - INFO - 13 - url:http://127.0.0.1:8010/api/caseSet/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 30, 'page': 1}
+2019-08-19 16:02:14,526 - INFO - 22 - url:http://127.0.0.1:8010/api/caseSet/find ,method:POST,返回数据:{'status': 1, 'data': [], 'all_set': [], 'total': 0}
+2019-08-19 16:02:14,879 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:02:14,883 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:02:15,274 - INFO - 13 - url:http://127.0.0.1:8010/api/project/find ,method:POST,请求参数:{'projectName': None, 'sizePage': 20, 'page': 1}
+2019-08-19 16:02:15,274 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:02:15,289 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:02:15,290 - INFO - 22 - url:http://127.0.0.1:8010/api/project/find ,method:POST,返回数据:{'data': [{'name': '百度搜索', 'host_two': '[]', 'id': 1, 'host_three': '[]', 'host': '[]', 'choice': 'first', 'principal': '管理员', 'host_four': '[]'}], 'status': 1, 'userData': [{'user_name': '管理员', 'user_id': 1}], 'total': 1}
+2019-08-19 16:02:15,770 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:02:15,787 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:02:15,805 - INFO - 13 - url:http://127.0.0.1:8010/api/module/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 30, 'page': 1}
+2019-08-19 16:02:15,808 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:02:15,817 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:02:15,818 - INFO - 22 - url:http://127.0.0.1:8010/api/module/find ,method:POST,返回数据:{'data': [{'name': '百度', 'moduleId': 1, 'num': 1}], 'all_module': [{'name': '百度', 'moduleId': 1, 'num': 1}], 'status': 1, 'total': 1}
+2019-08-19 16:02:15,844 - INFO - 13 - url:http://127.0.0.1:8010/api/apiMsg/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 20, 'page': 1, 'moduleId': 1, 'apiName': None}
+2019-08-19 16:02:15,852 - INFO - 22 - url:http://127.0.0.1:8010/api/apiMsg/find ,method:POST,返回数据:{'data': [], 'status': 1, 'total': 0}
+2019-08-19 16:02:16,180 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:02:16,180 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:02:16,188 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:02:16,197 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:02:16,343 - INFO - 13 - url:http://127.0.0.1:8010/api/caseSet/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 30, 'page': 1}
+2019-08-19 16:02:16,351 - INFO - 22 - url:http://127.0.0.1:8010/api/caseSet/find ,method:POST,返回数据:{'status': 1, 'data': [], 'all_set': [], 'total': 0}
+2019-08-19 16:02:16,503 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:02:16,510 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:02:17,018 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:02:17,019 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:02:17,028 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:02:17,038 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:02:17,056 - INFO - 13 - url:http://127.0.0.1:8010/api/config/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 20, 'configName': None, 'page': 1}
+2019-08-19 16:02:17,064 - INFO - 22 - url:http://127.0.0.1:8010/api/config/find ,method:POST,返回数据:{'data': [], 'status': 1, 'total': 0}
+2019-08-19 16:02:20,052 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:02:20,064 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:02:20,077 - INFO - 13 - url:http://127.0.0.1:8010/api/report/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 20, 'page': 1}
+2019-08-19 16:02:20,086 - INFO - 22 - url:http://127.0.0.1:8010/api/report/find ,method:POST,返回数据:{'data': [], 'status': 1, 'total': 0}
+2019-08-19 16:02:54,537 - INFO - 13 - url:http://127.0.0.1:8010/api/logout ,method:GET,请求参数:None
+2019-08-19 16:02:54,543 - INFO - 22 - url:http://127.0.0.1:8010/api/logout ,method:GET,返回数据:{'status': 1, 'msg': '登出成功'}
+2019-08-19 16:06:33,716 - INFO - 13 - url:http://127.0.0.1:8010/api/login ,method:POST,请求参数:{'account': 'admin', 'password': '123456'}
+2019-08-19 16:06:33,763 - INFO - 22 - url:http://127.0.0.1:8010/api/login ,method:POST,返回数据:{'name': '管理员', 'roles': '2', 'status': 1, 'msg': '登录成功', 'userId': 1, 'token': 'eyJleHAiOjE1NjYyMDU1OTMsImFsZyI6IkhTNTEyIiwiaWF0IjoxNTY2MjAxOTkzfQ.eyJyZXNldCI6MX0.kYNF2BviPWXhS-v5rzlYSuZL6IiM_PdkddtutitMuiQ69Vb8XxkXuYyZGOF_6GK0gG1ZcBZbQnFtr0xuVF30Qw'}
+2019-08-19 16:06:33,853 - INFO - 13 - url:http://127.0.0.1:8010/api/project/find ,method:POST,请求参数:{'projectName': None, 'sizePage': 20, 'page': 1}
+2019-08-19 16:06:33,857 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:06:33,869 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:06:33,870 - INFO - 22 - url:http://127.0.0.1:8010/api/project/find ,method:POST,返回数据:{'data': [{'name': '百度搜索', 'host_two': '[]', 'id': 1, 'host_three': '[]', 'host': '[]', 'choice': 'first', 'principal': '管理员', 'host_four': '[]'}], 'status': 1, 'userData': [{'user_name': '管理员', 'user_id': 1}], 'total': 1}
+2019-08-19 16:11:03,012 - INFO - 13 - url:http://127.0.0.1:8010/api/logout ,method:GET,请求参数:None
+2019-08-19 16:11:03,017 - INFO - 22 - url:http://127.0.0.1:8010/api/logout ,method:GET,返回数据:{'status': 1, 'msg': '登出成功'}
+2019-08-19 16:11:46,488 - INFO - 13 - url:http://127.0.0.1:8010/api/login ,method:POST,请求参数:{'account': '', 'password': ''}
+2019-08-19 16:11:46,492 - INFO - 22 - url:http://127.0.0.1:8010/api/login ,method:POST,返回数据:{'status': 0, 'msg': '账号错误或不存在'}
+2019-08-19 16:11:59,367 - INFO - 13 - url:http://127.0.0.1:8010/api/login ,method:POST,请求参数:{'account': 'admin', 'password': '123456'}
+2019-08-19 16:11:59,408 - INFO - 22 - url:http://127.0.0.1:8010/api/login ,method:POST,返回数据:{'name': '管理员', 'roles': '2', 'status': 1, 'msg': '登录成功', 'userId': 1, 'token': 'eyJleHAiOjE1NjYyMDU5MTksImFsZyI6IkhTNTEyIiwiaWF0IjoxNTY2MjAyMzE5fQ.eyJyZXNldCI6MX0.xB14FqkZTiKnc_5DkZgqByTuHMx8AO3rMEVjmiWvnEMoh7k-NXRi92FQ4X3zqFqubgorZHPDgmBM7JNwMXyHIA'}
+2019-08-19 16:11:59,509 - INFO - 13 - url:http://127.0.0.1:8010/api/project/find ,method:POST,请求参数:{'projectName': None, 'sizePage': 20, 'page': 1}
+2019-08-19 16:11:59,511 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:11:59,524 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:11:59,525 - INFO - 22 - url:http://127.0.0.1:8010/api/project/find ,method:POST,返回数据:{'data': [{'name': '百度搜索', 'host_two': '[]', 'id': 1, 'host_three': '[]', 'host': '[]', 'choice': 'first', 'principal': '管理员', 'host_four': '[]'}], 'status': 1, 'userData': [{'user_name': '管理员', 'user_id': 1}], 'total': 1}
+2019-08-19 16:12:28,905 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:12:29,230 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:12:29,334 - INFO - 13 - url:http://127.0.0.1:8010/api/module/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 30, 'page': 1}
+2019-08-19 16:12:29,337 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:12:29,345 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:12:29,345 - INFO - 22 - url:http://127.0.0.1:8010/api/module/find ,method:POST,返回数据:{'data': [{'name': '百度', 'moduleId': 1, 'num': 1}], 'all_module': [{'name': '百度', 'moduleId': 1, 'num': 1}], 'status': 1, 'total': 1}
+2019-08-19 16:12:29,382 - INFO - 13 - url:http://127.0.0.1:8010/api/apiMsg/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 20, 'page': 1, 'moduleId': 1, 'apiName': None}
+2019-08-19 16:12:29,388 - INFO - 22 - url:http://127.0.0.1:8010/api/apiMsg/find ,method:POST,返回数据:{'data': [], 'status': 1, 'total': 0}
+2019-08-19 16:12:36,333 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:12:36,335 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:12:36,350 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:12:36,378 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:12:36,408 - INFO - 13 - url:http://127.0.0.1:8010/api/config/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 20, 'configName': None, 'page': 1}
+2019-08-19 16:12:36,418 - INFO - 22 - url:http://127.0.0.1:8010/api/config/find ,method:POST,返回数据:{'data': [], 'status': 1, 'total': 0}
+2019-08-19 16:12:40,502 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:12:40,516 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:12:40,557 - INFO - 13 - url:http://127.0.0.1:8010/api/module/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 30, 'page': 1}
+2019-08-19 16:12:40,560 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:12:40,569 - INFO - 22 - url:http://127.0.0.1:8010/api/module/find ,method:POST,返回数据:{'data': [{'name': '百度', 'moduleId': 1, 'num': 1}], 'all_module': [{'name': '百度', 'moduleId': 1, 'num': 1}], 'status': 1, 'total': 1}
+2019-08-19 16:12:40,570 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:12:40,594 - INFO - 13 - url:http://127.0.0.1:8010/api/apiMsg/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 20, 'page': 1, 'moduleId': 1, 'apiName': None}
+2019-08-19 16:12:40,600 - INFO - 22 - url:http://127.0.0.1:8010/api/apiMsg/find ,method:POST,返回数据:{'data': [], 'status': 1, 'total': 0}
+2019-08-19 16:12:55,455 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:12:55,457 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:12:55,468 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:12:55,471 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:12:55,491 - INFO - 13 - url:http://127.0.0.1:8010/api/config/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 20, 'configName': None, 'page': 1}
+2019-08-19 16:12:55,499 - INFO - 22 - url:http://127.0.0.1:8010/api/config/find ,method:POST,返回数据:{'data': [], 'status': 1, 'total': 0}
+2019-08-19 16:16:03,867 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:16:03,873 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:16:04,491 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:16:04,512 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:16:04,532 - INFO - 13 - url:http://127.0.0.1:8010/api/config/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 20, 'configName': None, 'page': 1}
+2019-08-19 16:16:04,541 - INFO - 22 - url:http://127.0.0.1:8010/api/config/find ,method:POST,返回数据:{'data': [], 'status': 1, 'total': 0}
+2019-08-19 16:16:07,441 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:16:07,443 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:16:07,455 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:16:07,465 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:16:07,500 - INFO - 13 - url:http://127.0.0.1:8010/api/caseSet/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 30, 'page': 1}
+2019-08-19 16:16:07,513 - INFO - 22 - url:http://127.0.0.1:8010/api/caseSet/find ,method:POST,返回数据:{'status': 1, 'data': [], 'all_set': [], 'total': 0}
+2019-08-19 16:16:08,265 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:16:08,266 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:16:08,280 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:16:08,280 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:16:08,300 - INFO - 13 - url:http://127.0.0.1:8010/api/config/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 20, 'configName': None, 'page': 1}
+2019-08-19 16:16:08,310 - INFO - 22 - url:http://127.0.0.1:8010/api/config/find ,method:POST,返回数据:{'data': [], 'status': 1, 'total': 0}
+2019-08-19 16:16:10,126 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:16:10,126 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:16:10,133 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:16:10,146 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:16:10,168 - INFO - 13 - url:http://127.0.0.1:8010/api/caseSet/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 30, 'page': 1}
+2019-08-19 16:16:10,176 - INFO - 22 - url:http://127.0.0.1:8010/api/caseSet/find ,method:POST,返回数据:{'status': 1, 'data': [], 'all_set': [], 'total': 0}
+2019-08-19 16:16:10,929 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:16:10,931 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:16:10,940 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:16:10,947 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:16:10,969 - INFO - 13 - url:http://127.0.0.1:8010/api/config/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 20, 'configName': None, 'page': 1}
+2019-08-19 16:16:10,978 - INFO - 22 - url:http://127.0.0.1:8010/api/config/find ,method:POST,返回数据:{'data': [], 'status': 1, 'total': 0}
+2019-08-19 16:16:18,548 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-19 16:16:18,550 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-19 16:16:18,558 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-19 16:16:18,569 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'config_name_list': {'百度搜索': []}, 'set_list': {'百度搜索': []}, 'urlData': {'百度搜索': []}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'status': 1, 'scene_list': {}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}]}
+2019-08-19 16:16:18,591 - INFO - 13 - url:http://127.0.0.1:8010/api/config/find ,method:POST,请求参数:{'projectName': '百度搜索', 'sizePage': 20, 'configName': None, 'page': 1}
+2019-08-19 16:16:18,604 - INFO - 22 - url:http://127.0.0.1:8010/api/config/find ,method:POST,返回数据:{'data': [], 'status': 1, 'total': 0}

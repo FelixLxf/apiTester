@@ -1,0 +1,26 @@
+2019-08-09 11:52:52,761 - INFO - 13 - url:http://127.0.0.1:8010/api/login ,method:POST,请求参数:{'account': 'admin', 'password': '123456'}
+2019-08-09 11:52:53,190 - INFO - 22 - url:http://127.0.0.1:8010/api/login ,method:POST,返回数据:{'status': 1, 'msg': '登录成功', 'name': '管理员', 'token': 'eyJpYXQiOjE1NjUzMjI3NzMsImFsZyI6IkhTNTEyIiwiZXhwIjoxNTY1MzI2MzczfQ.eyJyZXNldCI6MX0.b7HYgy9eufXPWtetRZ88oLrQwBAkm0t6_MU7soA1WBlDC5ZVx1SjR1ks3d1J_x8qVK2L97CgEYWzEFfnHOdqaA', 'roles': '2', 'userId': 1}
+2019-08-09 11:52:53,324 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-09 11:52:53,326 - INFO - 13 - url:http://127.0.0.1:8010/api/project/find ,method:POST,请求参数:{'page': 1, 'sizePage': 20, 'projectName': None}
+2019-08-09 11:52:53,472 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-09 11:52:53,478 - INFO - 22 - url:http://127.0.0.1:8010/api/project/find ,method:POST,返回数据:{'data': [], 'userData': [{'user_name': '管理员', 'user_id': 1}], 'total': 0, 'status': 1}
+2019-08-09 11:52:54,824 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-09 11:52:54,857 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'status': 1, 'user_pro': None, 'urlData': {}, 'set_list': {}, 'data': {}, 'pro_and_id': [], 'scene_list': {}, 'config_name_list': {}}
+2019-08-09 11:52:54,887 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-09 11:52:54,891 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-09 11:52:55,478 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-09 11:52:55,480 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-09 11:52:55,489 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'status': 1, 'user_pro': None, 'urlData': {}, 'set_list': {}, 'data': {}, 'pro_and_id': [], 'scene_list': {}, 'config_name_list': {}}
+2019-08-09 11:52:55,489 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-09 11:52:55,956 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-09 11:52:55,958 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-09 11:52:55,968 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'status': 1, 'user_pro': None, 'urlData': {}, 'set_list': {}, 'data': {}, 'pro_and_id': [], 'scene_list': {}, 'config_name_list': {}}
+2019-08-09 11:52:55,970 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-09 11:52:56,484 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-09 11:52:56,488 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-09 11:52:57,663 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-09 11:52:57,671 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'status': 1, 'user_pro': None, 'urlData': {}, 'set_list': {}, 'data': {}, 'pro_and_id': [], 'scene_list': {}, 'config_name_list': {}}
+2019-08-09 11:52:59,760 - INFO - 13 - url:http://127.0.0.1:8010/api/project/find ,method:POST,请求参数:{'page': 1, 'sizePage': 20, 'projectName': None}
+2019-08-09 11:52:59,764 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-09 11:52:59,772 - INFO - 22 - url:http://127.0.0.1:8010/api/project/find ,method:POST,返回数据:{'data': [], 'userData': [{'user_name': '管理员', 'user_id': 1}], 'total': 0, 'status': 1}
+2019-08-09 11:52:59,773 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}

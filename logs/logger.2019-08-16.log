@@ -1,0 +1,6 @@
+2019-08-16 16:51:15,941 - INFO - 13 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,请求参数:None
+2019-08-16 16:51:16,341 - INFO - 22 - url:http://127.0.0.1:8010/api/proGather/list ,method:GET,返回数据:{'data': {'百度搜索': [{'name': '百度', 'moduleId': 1}]}, 'scene_list': {}, 'user_pro': {'pro_name': '百度搜索', 'model_list': [{'name': '百度', 'moduleId': 1}]}, 'set_list': {'百度搜索': []}, 'config_name_list': {'百度搜索': []}, 'pro_and_id': [{'name': '百度搜索', 'id': 1}], 'urlData': {'百度搜索': []}, 'status': 1}
+2019-08-16 16:51:16,357 - INFO - 13 - url:http://127.0.0.1:8010/api/report/find ,method:POST,请求参数:{'projectName': '百度搜索', 'page': 1, 'sizePage': 20}
+2019-08-16 16:51:16,364 - INFO - 22 - url:http://127.0.0.1:8010/api/report/find ,method:POST,返回数据:{'data': [], 'total': 0, 'status': 1}
+2019-08-16 16:51:19,170 - INFO - 13 - url:http://127.0.0.1:8010/api/report/find ,method:POST,请求参数:{'projectName': '百度搜索', 'page': 1, 'sizePage': 20}
+2019-08-16 16:51:19,177 - INFO - 22 - url:http://127.0.0.1:8010/api/report/find ,method:POST,返回数据:{'data': [], 'total': 0, 'status': 1}

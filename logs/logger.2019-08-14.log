@@ -1,0 +1,12 @@
+2019-08-14 11:33:21,949 - INFO - 13 - url:http://127.0.0.1:8010/api/login ,method:POST,请求参数:{'account': 'admin', 'password': '123456'}
+2019-08-14 11:33:22,013 - INFO - 22 - url:http://127.0.0.1:8010/api/login ,method:POST,返回数据:{'userId': 1, 'name': '管理员', 'status': 1, 'msg': '登录成功', 'roles': '2', 'token': 'eyJhbGciOiJIUzUxMiIsImV4cCI6MTU2NTc1NzIwMiwiaWF0IjoxNTY1NzUzNjAyfQ.eyJyZXNldCI6MX0.nFsFZEBP5gp806DXbB4ZFZvWL6zRqOFAqPxH27r6xZ_l41O__PEW-eKLob5b1ZerHpculM4O0CiBfomRmpxBtw'}
+2019-08-14 11:33:22,136 - INFO - 13 - url:http://127.0.0.1:8010/api/project/find ,method:POST,请求参数:{'projectName': None, 'page': 1, 'sizePage': 20}
+2019-08-14 11:33:22,137 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-14 11:33:22,569 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-14 11:33:22,570 - INFO - 22 - url:http://127.0.0.1:8010/api/project/find ,method:POST,返回数据:{'data': [{'host_three': '[]', 'host_two': '[]', 'name': '百度搜索', 'id': 1, 'host': '[]', 'host_four': '[]', 'principal': '管理员', 'choice': 'first'}], 'total': 1, 'status': 1, 'userData': [{'user_id': 1, 'user_name': '管理员'}]}
+2019-08-14 11:34:11,099 - INFO - 13 - url:http://127.0.0.1:8010/api/login ,method:POST,请求参数:{'account': 'admin', 'password': '123456'}
+2019-08-14 11:34:11,140 - INFO - 22 - url:http://127.0.0.1:8010/api/login ,method:POST,返回数据:{'userId': 1, 'name': '管理员', 'status': 1, 'msg': '登录成功', 'roles': '2', 'token': 'eyJhbGciOiJIUzUxMiIsImV4cCI6MTU2NTc1NzI1MSwiaWF0IjoxNTY1NzUzNjUxfQ.eyJyZXNldCI6MX0.eUkvlTK3eHfhFvfX8pMaGixUHikajFvyYJPPtObCF41unYGtxe-tk2rLGM8sXeF_cumHflC9HtX2WqxJF_wwAQ'}
+2019-08-14 11:34:11,232 - INFO - 13 - url:http://127.0.0.1:8010/api/project/find ,method:POST,请求参数:{'projectName': None, 'page': 1, 'sizePage': 20}
+2019-08-14 11:34:11,237 - INFO - 13 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,请求参数:None
+2019-08-14 11:34:11,246 - INFO - 22 - url:http://127.0.0.1:8010/api/func/getAddress ,method:POST,返回数据:{'data': [{'value': 'test11.py'}], 'status': 1}
+2019-08-14 11:34:11,247 - INFO - 22 - url:http://127.0.0.1:8010/api/project/find ,method:POST,返回数据:{'data': [{'host_three': '[]', 'host_two': '[]', 'name': '百度搜索', 'id': 1, 'host': '[]', 'host_four': '[]', 'principal': '管理员', 'choice': 'first'}], 'total': 1, 'status': 1, 'userData': [{'user_id': 1, 'user_name': '管理员'}]}
